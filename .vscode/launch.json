@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "${workspaceFolder}/target/debug/kyber",
+            "args": ["--sec", "2", "--enc", "--key-file", "/home/rl_test/test23", "--key-type", "xored"],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PATH": "/home/your_actual_username/.cargo/bin:${env:PATH}"
+            },
+            "sourceLanguages": ["rust"],
+     
+        }
+    ]
+}
