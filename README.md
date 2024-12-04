@@ -6,9 +6,13 @@ Order does not matter, for decapsulation only private key and ciphertext are req
 This is also the format that the program will output in encapsulation mode.
 
 PRIVATE KEY: <HEX VALUE>
+
 PUBLIC KEY: <HEX VALUE>
+
 Ciphertext: <HEX VALUE>
+
 Shared Secret: <HEX VALUE>
+
 
 Encapsulation mode does not require any input. However, you can supply your own key if you wish.
 Your output will be saved in the keyfile provided.
