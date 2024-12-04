@@ -1,4 +1,4 @@
-This is version of Kyber I converted into Rust from the C reference implementation. It is quite simple and does the encapsulation and decapsulation for all 3 security strengths. 
+This is version of Kyber I converted into Rust from the C reference implementation. It is quite simple and does the encapsulation and decapsulation for all 3 security strengths. It has been extarcted from a larger project I completed so there will be little bits of extra code that don't appear to be used.
 Please feel free to use and update it. It would be nice if you referenced this if you do use it. 
 
 Please note that many terminals have input restrictions on length. As such for decapsulation mode please supply keys in a separate file. The format is demonstrated below:
